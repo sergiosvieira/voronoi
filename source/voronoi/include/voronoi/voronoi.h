@@ -24,4 +24,4 @@
   * along with Voronoi++.  If not, see <http://www.gnu.org/licenses/>.
   **/
 
-#include <voronoi/VoronoiDiagram.h>
+#include <VoronoiDiagram.h>
