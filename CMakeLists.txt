@@ -61,7 +61,7 @@ set(IDE_FOLDER "")
 
 # Include custom cmake functions (works only after the CMAKE_MODULE_PATH was adapted as done in the line above)
 include(cmake/Custom.cmake)
-include(cmake/GitRevision.cmake)
+#include(cmake/GitRevision.cmake)
 
 
 
@@ -148,7 +148,7 @@ install(FILES LGPL DESTINATION ${INSTALL_ROOT})
 
 # Add a revision file containing the git-head tag for cpack and install. The function
 # "create_revision_file (...)" is defined in cmake/GitRevision.cmake
-create_revision_file(${CMAKE_BINARY_DIR}/revision ${INSTALL_ROOT})
+#create_revision_file(${CMAKE_BINARY_DIR}/revision ${INSTALL_ROOT})
 
 
 
